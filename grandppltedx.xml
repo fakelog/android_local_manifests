@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/samsung/grandppltedx"
+           name="almondnguyen/android_device_samsung_grandppltedx"
+           revision="cm-14.1" />
+
+  <project path="vendor/samsung/grandppltedx"
+           name="almondnguyen/android_vendor_samsung_grandppltedx"
+           revision="android-7" />
+
+  <project path="kernel/samsung/grandppltedx"
+           name="almondnguyen/android_kernel_samsung_grandppltedx"
+           revision="mainline-android-7" />
+</manifest>
