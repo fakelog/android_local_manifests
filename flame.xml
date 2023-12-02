@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="lineage-devices" fetch="https://github.com/LineageOS" revision="lineage-21" /> 
+  <remote name="muppets" fetch="https://github.com/TheMuppets" revision="lineage-21" />
+
+  <!-- device -->
+  <project path="device/google/flame" name="android_device_google_flame" remote="lineage-devices" />
+  <!-- vendor -->
+  <project path="vendor/google/flame" name="proprietary_vendor_google_flame" remote="muppets" />
+
+</manifest>

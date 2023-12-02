@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="lineage-devices"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-21" />
+          
+  <remote name="muppets"
+          fetch="https://github.com/TheMuppets"
+          revision="lineage-21" />
+  
+  <!-- app -->
+  <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="lineage" />
+  
+  <!-- device -->
+  <project path="device/google/coral" name="android_device_google_coral" remote="lineage-devices" />
+  
+  <!-- kernel -->
+  <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="lineage-devices" />
+
+  <!-- vendor -->
+  <project path="vendor/google/coral" name="proprietary_vendor_google_coral" remote="muppets" />
+
+</manifest>
